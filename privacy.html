@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DebateMe Privacy Policy</title>
+<meta name="description" content="How DebateMe collects, uses and protects your information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<style>
+/* Layout: one readable parchment column (about 65ch) with a small sticky contents list on wide screens. */
+:root{
+  --bg:#F3EEE1; --paper:#FBF8F0; --ink:#1E2A40; --muted:#5B687C; --line:#E0D6BF;
+  --blue:#4E7CB3; --blue-2:#DCE6F2; --mark:#F6E3A8; --mark-ink:#5A4410;
+  --display:"Cinzel","Trajan Pro",Georgia,serif;
+  --body:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111926; --paper:#182233; --ink:#ECE5D2; --muted:#9AA6B9; --line:#2A3850;
+  --blue:#8AAEDA; --blue-2:#21324A; --mark:#4A3D18; --mark-ink:#F3D98A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111926; --paper:#182233; --ink:#ECE5D2; --muted:#9AA6B9; --line:#2A3850;
+  --blue:#8AAEDA; --blue-2:#21324A; --mark:#4A3D18; --mark-ink:#F3D98A; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 var(--body);-webkit-font-smoothing:antialiased;padding-inline:16px}
+.wrap{max-width:1000px;margin:0 auto;padding-block:32px 64px;display:grid;grid-template-columns:minmax(0,1fr);gap:32px}
+@media (min-width:900px){.wrap{grid-template-columns:220px minmax(0,1fr)}}
+header{display:flex;align-items:center;gap:14px}
+header .brand{font-family:var(--display);font-size:1.5rem;letter-spacing:.04em}
+header .brand span{color:var(--blue)}
+h1,h2{font-family:var(--display);font-weight:700;letter-spacing:.02em;line-height:1.25;text-wrap:balance;margin:0}
+h1{font-size:clamp(1.7rem,4vw,2.3rem)}
+h2{font-size:1.2rem;margin-top:8px;scroll-margin-top:16px}
+article{display:grid;gap:14px;max-width:65ch;min-width:0}
+article p,article ul{margin:0}
+article ul{padding-left:1.2em;display:grid;gap:6px}
+.meta{color:var(--muted);font-size:.95rem}
+.lede{font-size:1.1rem}
+.box{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.box h3{font-family:var(--body);font-size:1rem;font-weight:700;margin:0 0 6px}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.95rem;min-width:520px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+th{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+td:first-child{font-weight:700;white-space:nowrap}
+mark{background:var(--mark);color:var(--mark-ink);padding:0 .25em;border-radius:4px;font-weight:500}
+a{color:var(--blue)}
+a:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:3px}
+nav.toc{font-size:.95rem}
+nav.toc p{font-family:var(--display);font-size:.85rem;letter-spacing:.06em;margin:0 0 8px;color:var(--muted)}
+nav.toc ol{margin:0;padding-left:1.2em;display:grid;gap:4px;color:var(--muted)}
+nav.toc a{color:var(--ink);text-decoration:none}
+nav.toc a:hover{color:var(--blue);text-decoration:underline}
+@media (min-width:900px){nav.toc{position:sticky;top:calc(16px + env(safe-area-inset-top,0px));align-self:start;padding-top:128px}}
+footer{color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav class="toc" aria-label="Contents">
+    <p>CONTENTS</p>
+    <ol>
+      <li><a href="#collect">What we collect</a></li>
+      <li><a href="#public">What's public</a></li>
+      <li><a href="#use">How we use it</a></li>
+      <li><a href="#share">Who we share it with</a></li>
+      <li><a href="#keep">How long we keep it</a></li>
+      <li><a href="#rights">Your choices and rights</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#changes">Changes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <article>
+    <header>
+      <svg width="44" height="44" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" fill="#4E7CB3"/><circle cx="50" cy="50" r="43" fill="none" stroke="#DCE6F2" stroke-width="1.5"/><g transform="translate(50,51) rotate(45) scale(.8)"><polygon points="-4,-40 0,-49 4,-40 4,17 -4,17" fill="#FFFFFF" stroke="#2C5A92" stroke-width="2" stroke-linejoin="round"/><rect x="-15" y="17" width="30" height="6" rx="3" fill="#FFFFFF" stroke="#2C5A92" stroke-width="2"/><rect x="-3" y="23" width="6" height="14" rx="1.5" fill="#FFFFFF" stroke="#2C5A92" stroke-width="2"/><circle cy="41" r="4.5" fill="#FFFFFF" stroke="#2C5A92" stroke-width="2"/></g><g transform="translate(50,51) rotate(-45) scale(.8)"><polygon points="-4,-40 0,-49 4,-40 4,17 -4,17" fill="#FFFFFF" stroke="#2C5A92" stroke-width="2" stroke-linejoin="round"/><rect x="-15" y="17" width="30" height="6" rx="3" fill="#FFFFFF" stroke="#2C5A92" stroke-width="2"/><rect x="-3" y="23" width="6" height="14" rx="1.5" fill="#FFFFFF" stroke="#2C5A92" stroke-width="2"/><circle cy="41" r="4.5" fill="#FFFFFF" stroke="#2C5A92" stroke-width="2"/></g></svg>
+      <span class="brand">Debate<span>Me</span></span>
+    </header>
+
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective September 28, 2026</p>
+    <p class="lede">DebateMe is an app for public debate. This policy explains what information the app collects, what other people can see, and how you can delete your account and everything you've posted.</p>
+    <p>DebateMe is made by BeachApplications, owned by Ronald Aaron Beach ("we", "us"). If you have a question about this policy, email <a href="mailto:beachmadeapps@gmail.com">beachmadeapps@gmail.com</a>.</p>
+
+    <div class="box">
+      <h3>The short version</h3>
+      <ul>
+        <li>We collect your email, password, debate name and what you post.</li>
+        <li>Your debate name, bio, record and posts are public to everyone using DebateMe.</li>
+        <li>Your email and the individual thumbs up you give are private.</li>
+        <li>No ads, no tracking across other apps or websites, and we never sell your information.</li>
+        <li>You can delete your account in the app at any time, which deletes everything you posted.</li>
+      </ul>
+    </div>
+
+    <h2 id="collect">1. What we collect</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Information</th><th>Examples</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Account details</td><td>Email address and password. Passwords are stored in scrambled (hashed) form, so we can't read them.</td><td>To create your account and sign you in.</td></tr>
+        <tr><td>Profile</td><td>Your debate name and optional short bio.</td><td>To show who is debating.</td></tr>
+        <tr><td>What you post</td><td>Theories, arguments in a debate thread, and public chat messages.</td><td>This is the service.</td></tr>
+        <tr><td>Activity</td><td>Thumbs up you give (which debate, which side, when), which debates you've opened, your wins and losses, people you block, and reports you send.</td><td>To count votes, enforce the monthly thumbs limit, rank popular debates, work out winners and ranks, and keep the community safe.</td></tr>
+        <tr><td>Technical data</td><td>IP address, device and app version, and request logs kept by our hosting provider. A sign-in token is stored on your device so you stay signed in.</td><td>To run the service securely and fix problems.</td></tr>
+      </tbody>
+    </table></div>
+    <p>We don't collect your location, contacts, photos, camera, microphone or payment details. DebateMe has no advertising and no third-party analytics or tracking tools.</p>
+
+    <h2 id="public">2. What's public</h2>
+    <p>DebateMe is built for public debate. Anyone using the app, including people who haven't signed up, can see:</p>
+    <ul>
+      <li>Your debate name, bio, the month and year you joined, your rank, and your wins, losses and draws.</li>
+      <li>Every theory, argument and chat message you post, with your debate name and when you posted it.</li>
+      <li>Total thumbs up for each side of a debate, and view and message counts.</li>
+    </ul>
+    <p>Other people can't see your email address, who you gave thumbs up to, who you've blocked, or reports you've sent. Think before you post: don't share personal details you want to keep private.</p>
+
+    <h2 id="use">3. How we use your information</h2>
+    <ul>
+      <li>To run DebateMe: accounts, debates, voting, winners, ranks and chat.</li>
+      <li>To keep the community safe: reviewing reports, removing content that breaks the community rules, and suspending accounts.</li>
+      <li>To keep the service secure and working, and to prevent abuse.</li>
+      <li>To reply when you contact us, and to send account emails such as sign-up confirmation.</li>
+      <li>To comply with the law.</li>
+    </ul>
+    <p>We don't use your information for advertising, and we don't sell it or share it for cross-context behavioral advertising.</p>
+
+    <h2 id="share">4. Who we share it with</h2>
+    <ul>
+      <li><strong>Supabase</strong> hosts our database and handles sign-in. It stores and processes the information above on our behalf, under its own security and privacy commitments.</li>
+      <li><strong>Expo</strong> (EAS) builds the app and may deliver app updates to your device. It doesn't receive your account details or posts.</li>
+      <li><strong>Apple and Google</strong> distribute the app through their stores under their own privacy policies.</li>
+      <li><strong>Moderators.</strong> DebateMe admins can see reported content, who reported it, and who wrote it, so they can act on reports.</li>
+      <li><strong>Legal reasons.</strong> We may share information if the law requires it, or to protect someone's safety or our rights.</li>
+      <li><strong>If DebateMe changes hands</strong>, information may move to the new owner, who must follow this policy.</li>
+    </ul>
+
+    <h2 id="keep">5. How long we keep it</h2>
+    <p>We keep your information while your account exists. When you delete your account, we delete your account, profile, debates, arguments, chat messages, thumbs up, views, blocks and reports you sent. Debates you were part of are deleted too, since a debate can't continue without both sides.</p>
+    <p>Content an admin removes is hidden from everyone but kept, so the decision can be reviewed, until the author's account is deleted. Our hosting provider may keep backups and logs for a limited time after deletion before they're overwritten.</p>
+
+    <h2 id="rights">6. Your choices and rights</h2>
+    <ul>
+      <li><strong>Edit</strong> your debate name and bio any time in the Account tab.</li>
+      <li><strong>Delete your account</strong> in the Account tab. It's permanent and immediate.</li>
+      <li><strong>Block</strong> anyone to hide their debates, arguments and messages from you.</li>
+      <li><strong>Ask us</strong> for a copy of your information, to correct it, or to delete it, by emailing <a href="mailto:beachmadeapps@gmail.com">beachmadeapps@gmail.com</a>. We'll reply within 30 days.</li>
+    </ul>
+    <p>Depending on where you live, including the European Economic Area, the UK and states such as California, you may have extra rights. These include knowing what we hold about you, getting a copy, correcting or deleting it, objecting to or restricting some uses, and complaining to your local data protection authority. We won't treat you differently for using them. Where the law requires a legal basis for using your information, we rely on providing the service you signed up for, our legitimate interest in keeping DebateMe safe and working, and legal obligations.</p>
+    <p>Your information may be stored and processed in countries other than yours, including the United States. Where required, we rely on our providers' standard contractual safeguards.</p>
+
+    <h2 id="security">7. Security</h2>
+    <p>Information travels between the app and our servers over encrypted connections, passwords are hashed, and database rules limit who can read and change each kind of data. No system is perfectly secure, so use a password you don't use anywhere else.</p>
+
+    <h2 id="children">8. Children</h2>
+    <p>DebateMe isn't for children under 13, or under the minimum age for online services where you live. We don't knowingly collect information from them. If you believe a child has an account, email us and we'll delete it.</p>
+
+    <h2 id="changes">9. Changes to this policy</h2>
+    <p>If we change this policy, we'll update the date at the top. For significant changes, we'll let you know in the app before they take effect.</p>
+
+    <h2 id="contact">10. Contact</h2>
+    <p>BeachApplications<br>Ronald Aaron Beach<br><a href="mailto:beachmadeapps@gmail.com">beachmadeapps@gmail.com</a><br>Grays Harbor County, Washington, USA</p>
+
+    <footer>DebateMe · Post a theory. Take on a challenger. Let the crowd decide.</footer>
+  </article>
+</div>
+</body>
+</html>
